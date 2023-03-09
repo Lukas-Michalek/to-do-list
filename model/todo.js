@@ -9,6 +9,8 @@ const create = (description) => {
   ]);
 };
 
+// ** Note RETURNING * => https://www.postgresql.org/docs/current/dml-returning.html
+
 // Getting the list of tasks
 const get = () => {
   pool.query('SELECT * FROM todo');
