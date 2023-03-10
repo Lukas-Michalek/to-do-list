@@ -41,7 +41,7 @@ After the repository was cloned, before the project can be started you need to i
  
  Please note that we have named our cloned folder to-do-list. In your case please replace to-do-list in file path with the name of the folder where the project is based. For the demonstration purposes we will be using the folder name of to-do-list as stated above.
 
-1. Within the root directory of starting-code, install the dependencies in package.json.
+1. Within the root directory of starting-code, install the dependencies in package.json.
 
 ```
 $ cd to-do-list
@@ -51,7 +51,7 @@ $ cd to-do-list
 $ npm install
 ```
 
-1. Next, set up the application’s view directory by navigating there from your terminal and installing the dependencies.
+1. Next, set up the application’s view directory by navigating there from your terminal and installing the dependencies.
 
 ```
 $ cd view

@@ -3,23 +3,18 @@
 const pool = require('./database');
 
 // Creating new entry
-const create = (description) => {
+const create = (description) =>
   pool.query('INSERT INTO todo(description) VALUES ($1) RETURNING *', [
     description,
   ]);
-};
 
 // ** Note RETURNING * => https://www.postgresql.org/docs/current/dml-returning.html
 
 // Getting the list of tasks
-const get = () => {
-  pool.query('SELECT * FROM todo');
-};
+const get = () => pool.query('SELECT * FROM todo');
 
 // Removing task
-const remove = (id) => {
-  pool.query('DELETE FROM todo WHERE todo_id = $1', [id]);
-};
+const remove = (id) => pool.query('DELETE FROM todo WHERE todo_id = $1', [id]);
 
 module.exports = {
   create,
