@@ -93,7 +93,7 @@ After the Database was connected to our application we are ready to deploy it.
 
 Start the project by running **`npm start`** inside the root directory as well as inside the **view** directory. Remember that you’ll need to start your back-end server first for the app to work correctly.
 
-We are using **`[nodemon](https://www.npmjs.com/package/nodemon)`** to run the back-end server. **`nodemon`** is a Node package that watches our files and automatically restarts the server each time we save a change. Without it, we’d need to restart the server each time we made a change to see those changes take effect.
+We are using [nodemon](https://www.npmjs.com/package/nodemon) to run the back-end server. **`nodemon`** is a Node package that watches our files and automatically restarts the server each time we save a change. Without it, we’d need to restart the server each time we made a change to see those changes take effect.
 
 ## **Technologies used**
  - Javascript
@@ -106,6 +106,9 @@ We are using **`[nodemon](https://www.npmjs.com/package/nodemon)`** to run the b
 ## **Frameworks used**
  - Express 
  - React
+
+## **Acknowledgment**
+This project was part of the Full Stack Software Developer Path on [Codecademy](https://www.codecademy.com/)
 
 ## **Author**
 Lukas Michalek
